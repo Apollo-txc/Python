@@ -74,7 +74,21 @@ fruits.append("Banana")
 fruits.append("cherry")
 print(fruits)
 """
+"""
 fruits=[]
 fruits.extend(["Appple","Banana","Cherry"])
 print(fruits)
 print([len(fruits)])
+"""
+"""
+fruits=["apple","banana","cherry"]
+for i in fruits:
+    print(i)
+"""
+"""
+x=[1,2,3,4,5,6,7,8,9,10]
+
+for num in x:
+    if num%2==0:
+        print(num)
+"""
