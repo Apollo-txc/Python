@@ -92,7 +92,24 @@ for num in x:
     if num%2==0:
         print(num)
 """
+"""
 def great(name):
     return name
 Name=input("Enter your name: ")
 print("Hello",great(Name))
+"""
+"""
+def add_numbers(x,y):
+    return x+y
+i=int(input("Enter a number: "))
+j=int(input("Enter a number: "))
+print(add_numbers(i,j)) 
+"""
+def even_number(x):
+    if x%2==0:
+        print("True")
+    else:
+        print("False")
+
+num=int(input("Enter a number: "))
+even_number(num)
