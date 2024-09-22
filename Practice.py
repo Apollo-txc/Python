@@ -92,3 +92,7 @@ for num in x:
     if num%2==0:
         print(num)
 """
+def great(name):
+    return name
+Name=input("Enter your name: ")
+print("Hello",great(Name))
