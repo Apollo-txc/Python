@@ -38,6 +38,7 @@ if X%2==0:
 else:
     print("Odd")
 """
+"""
 x=int(input("Enter a X: "))
 i=int(input("Enter a I: "))
 if x>i:
@@ -46,3 +47,34 @@ elif i>x:
     print("i is greater than x")
 else:
     print("x and i are equal")
+"""
+"""
+x=5
+x+=10
+print(x)
+"""
+"""
+i=2
+i*=3
+print(i)
+"""
+"""
+x=100
+x-=25
+print(x)
+"""
+"""
+fruits=["apple","banana","cherry"]
+print(fruits[-1])
+"""
+"""
+fruits=[]
+fruits.append("Apples")
+fruits.append("Banana")
+fruits.append("cherry")
+print(fruits)
+"""
+fruits=[]
+fruits.extend(["Appple","Banana","Cherry"])
+print(fruits)
+print([len(fruits)])
